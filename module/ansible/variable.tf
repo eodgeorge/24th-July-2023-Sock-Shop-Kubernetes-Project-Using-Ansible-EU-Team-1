@@ -1,0 +1,17 @@
+variable "ami" {}
+variable "instance_type" {}
+variable "private_subnet" {}
+variable "ansible_sg" {}
+variable "keypair" {}
+variable "private_key" {}
+variable "tag1" {}
+variable "main-masterIP" {}
+variable "haproxy" {}
+variable "haproxy-backupIP" {}
+variable "member-masterIP1" {}
+variable "member-masterIP2" {}
+variable "worker-node1" {}
+variable "worker-node2" {}
+variable "worker-node3" {}
+variable "bastion_host" {}
+variable "asg-work" {}

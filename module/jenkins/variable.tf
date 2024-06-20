@@ -1,0 +1,9 @@
+variable "ami-redhat" {}  
+variable "instance-type" {}
+variable "keypair" {}
+variable "jenkins_security_group_id" {}
+variable "privatesub1" {}
+variable "Jenkins_Server" {}
+variable "subnet_ids" {}
+variable "elb-name" {}
+variable "cert-jenkins" {}
